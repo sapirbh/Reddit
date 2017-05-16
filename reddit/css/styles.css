@@ -1,0 +1,28 @@
+
+#user-input {
+	margin-left: 90px;
+	padding-left: 5px;
+	width: 300px;
+	height: 30px;
+	border: #E2D5D5 1px solid;
+	text-color: #E2D5D5;
+	font-size: 1em;
+}
+
+.cats-list {
+	width: 100%;
+}
+
+li {
+	list-style: none;
+}
+
+.cats-list-item {
+	list-style: none;
+	list-style-type: none;
+	float: left;
+	width: calc(28% - 10px) !important;
+	height: 300px !important;
+	margin: 10px 10px 10px 10px;
+	border: black solid 20px;
+}
