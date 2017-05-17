@@ -3,26 +3,27 @@
 		<!-- using jquery functions -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		
-		<!-- using your script script.js -->
-		<script type="text/javascript" src="../script/script-improved.js"></script>
-		    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../script/bootstrap.min.js"></script>
+		<!-- using script script.js -->
+		<script type="text/javascript" src="../script/script.js"></script>
 		
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="../script/bootstrap.min.js"></script>
+			
 		<!-- using the styles file (css) -->
 		<link rel="stylesheet" type="text/css" href="../css/styles.css" />
 		<link href="../css/bootstrap.min.css" rel="stylesheet">
 		
 		<!-- using Reddit api -->
 		<script src="../node_modules/reddit.js/reddit.min.js"></script>
-	
 	</head>
 
 	<body>
 	<div class="container">
 		<div>
-			<!-- here's the user input element 	-->
+			<!-- The user input element	-->
 			<input id="user-input" 
 					type=text 
 					placeholder="Type subreddit" 
@@ -37,12 +38,11 @@
 		</div>
 		</div>
 		<nav aria-label="...">
+		  <!-- Here are the buttons for next and prev -->
 		  <ul class="pager container" style="margin: 0 auto 20px auto;">
-			<li class="previous" id="prev"><a href="#"><span aria-hidden="true">&larr;</span> Prev</a></li>
-			<li class="next" id="next"><a href="#">Next <span aria-hidden="true">&rarr;</span></a></li>
+			<li class="previous" id="prev"><a href="#"><span aria-hidden="true">&larr;</span>Prev</a></li>
+			<li class="next" id="next"><a href="#">Next<span aria-hidden="true">&rarr;</span></a></li>
 		  </ul>
 		</nav>
-	
 	</body>
-
 <html>
